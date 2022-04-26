@@ -2,7 +2,7 @@ module.exports = {
   //load ts preset
   preset: "ts-jest/presets/js-with-ts",
   testEnvironment: "jsdom",
-  moduleFileExtensions: ["js", "ts", "vue"],
+  moduleFileExtensions: ["ts", "js", "vue"],
   transform: {
     "^.+\\.vue$": "@vue/vue3-jest",
     ".+\\.(css|styl|less|sass|scss|svg|png|jpg|ttf|woff|woff2)$":
